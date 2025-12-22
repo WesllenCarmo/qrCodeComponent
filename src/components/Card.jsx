@@ -1,13 +1,11 @@
-import QrCodeImage from '../assets/image-qr-code.png'
 import styles from './Card.module.css'
-
-function Card() {
+function Card({ title, paragraph, img }) {
     return (
         <div className={styles.card}>
-            <img className={styles.qrCodeimage} src={QrCodeImage} alt="A image of a QR code"/>
+            <img className={styles.qrCodeimage} src={img} alt="A image of a QR code"/>
                 <div className={styles.textContainer}>
-                    <h1 className={styles.title}>Improve my front-end skills by building projects</h1>
-                    <p className={styles.paragraph}>Scan the QR code to visit FrontEnd Mentor and take your coding skills to the next level.</p>
+                    <h1 className={styles.title}>{title}</h1>
+                    <p className={styles.paragraph}>{paragraph}</p>
                 </div>
         </div>   
     )

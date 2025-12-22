@@ -1,5 +1,5 @@
 .card {
-    width: min(320px, 90%);
+    width: 480px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column; 
@@ -14,20 +14,32 @@
     display: flex;
     flex-direction: column;
     row-gap: 1.5em;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 .title {
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 .paragraph {
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.4em;
     color: hsl(216, 15%, 48%);
 }
 .qrCodeimage {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
+}
+
+@media (max-width: 325px) {
+    .qrCodeimage {
+        width: 50%;
+    }
+    .card {
+        width: 100%;
+    }
+    .textContainer {
+        width: 100%;
+    }
 }
