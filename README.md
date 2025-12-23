@@ -19,7 +19,7 @@ This project is a challenge from the Frontend Mentor website, a platform where d
 ### Mobile
 
 <p align="center">
-    <img src="./screenshots/mobile.png" width="350" alt="A mobile preview of a website with a QR code card centered in a light-blue-coloured background"/>
+    <img src="./screenshots/mobile.png" width="350" height="630" alt="A mobile preview of a website with a QR code card centered in a light-blue-coloured background"/>
 </p>
 
 
