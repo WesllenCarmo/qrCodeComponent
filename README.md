@@ -41,11 +41,10 @@ This project is a challenge from the Frontend Mentor website, a platform where d
 
 ## Skills
 
-[![](https://skillicons.dev/icons?i=html,css,js,react)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=html,css,react)](https://skillicons.dev)
 
 - HTML5
 - CSS3
-- JavaScript
 - React.js
 
 
